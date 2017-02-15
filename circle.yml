@@ -1,3 +1,5 @@
 compile:
   override:
     - ./gradlew assembleDebug
+  post:
+    - ls -la
