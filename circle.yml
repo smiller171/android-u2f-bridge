@@ -2,4 +2,4 @@ compile:
   override:
     - ./gradlew assembleDebug
   post:
-    - ls -lar app/build
+    - ls -laR app/build
