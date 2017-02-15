@@ -2,4 +2,4 @@ compile:
   override:
     - ./gradlew assembleDebug
   post:
-    - ls -laR app/build
+    - mv app/build/outputs $CIRCLE_ARTIFACTS
